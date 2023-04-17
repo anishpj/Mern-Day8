@@ -11,6 +11,7 @@ request.onload = function(){
         })
        console.log(Data1);
 
+       
 // Get all the countries with a population of less than 2 lakhs using Filter function
         let Data2 = data.filter((val)=>{
             return val.population < 200000;
